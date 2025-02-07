@@ -1,0 +1,85 @@
+
+
+.logo {
+   width: 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue */
+    max-width: 800 px;
+    background-color: lightgrey;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    /* border: 1px solid red; */
+    list-style: none;
+    padding: 1rem;
+    background-color: lightgrey;
+}
+
+.nav-list a {
+    color: grey;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: darkgreen;
+    background-color: lightgreen
+}
+
+.hero {
+    display: flex; 
+}
+
+.hero > img {
+    width: 100vw;
+    box-shadow: 5px 5px 3px grey;
+}
+
+.hero > p {
+    position: absolute;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 50vw;
+    color: grey
+
+}
+
+.content > h1, p{
+    text-align: center;
+}
+form {
+    background-color: lightgreen;
+    box-shadow: 3px 3px 3px grey;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+div input {
+    box-shadow: 3px 3px 3px grey;
+}
+
+div button {
+    box-shadow: 3px 3px 3px grey;
+} 
+
+h2 {
+    color: darkgreen;
+}
+
+div {
+    padding: 20px 0;
+}
+
+footer {
+    border-top: 1px solid grey;
+    font-size: smaller;
+}
+
