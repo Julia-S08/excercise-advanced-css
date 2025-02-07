@@ -1,14 +1,25 @@
-@import url('Poppins-Regular.ttf');
-
-
-body{
-    font-family: "Poppins", serif;
-    font-weight: 400;
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
+@font-face{
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
 .logo {
-   width: 5%;
+   width: 60px;
+   height: auto;
+   object-fit: contain;
 }
 
 .navbar {
